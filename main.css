@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+body {
+    /*padding-top: 20px;*/
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px;
+}
+
+.introduction {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Hollywood_Pictures_Backlot.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25.938rem;
+    /*   margin-top: 1rem;*/
+    /*margin-bottom: 2rem;*/
+    /*margin-bottom: 30px;*/
+    display: block;
+    /*    margin-bottom: 30px;*/
+}
+
+.content {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    padding-top: 1rem;
+    display: block;
+}
+
+#comment {
+    font-size: 20px;
+    color: aqua;
+    /*padding-top: 2px;*/
+    /*padding-left: 120px;*/
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+    display: block;
+}
+
+.noResponse {
+    color: orange;
+    font-size: 20px;
+    display: none;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: crimson;
+}
+
+.inputdata-section {
+    width: 100%;
+    margin-bottom 5px;
+}
+
+input {
+    width: 70%;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 29%;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.js-search-form {
+    text-align: center;
+    font-size: 30px;
+    text-decoration-color: #333;
+}
+
+.wikidata-section {
+    text-align: center;
+    font-size: 25px;
+}
+
+.yahooclass {
+    display: inline-block;
+    width: 31%;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: auto;
+}
+
+.wikiname {
+    font-size: 25px;
+    text-align: center;
+}
+
+img.wiki-picture {
+    width: 90%;
+    height: 90%;
+}
+
+.wikiextract {
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.youtube-section {
+    margin-top: 30px;
+    /*    top: 150px;*/
+    bottom: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .yahooclass {
+        display: block;
+        width: 98%;
+        margin-bottom: 30px;
+    }
+    button {
+        width: 100%;
+        display: block;
+    }
+    input {
+        width: 100%;
+        display: block;
+    }
+}
