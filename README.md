@@ -11,9 +11,9 @@ This app is for users who want to lookup their favor star and find out their exi
 ## Working Prototype
 You can access a working prototype of the app here:(https://github.com/planbmanjb/firstcapstone/blob/master/index.html)
 
-![Landing Page with no data](https://github.com/planbmanjb/firstcapstone/blob/master/landing-page-no-data.jpg)
+![Landing Page with no data](https://github.com/planbmanjb/first-capstone-redo/blob/master/first-capstone-with-no-data.jpg)
 
-![Landing Page with data](https://github.com/planbmanjb/firstcapstone/blob/master/landing-page-with-data.jpg)
+![Landing Page with data](https://github.com/planbmanjb/first-capstone-redo/blob/master/first-capstone-with-data.jpg)
 
 
 ## Functionality
